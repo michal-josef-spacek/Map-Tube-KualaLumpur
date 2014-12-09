@@ -128,7 +128,7 @@ L<Map::Tube::Tokyo>.
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Map-Tube-KualaLumpur>
+L<https://github.com/tupinek/Map-Tube-KualaLumpur>
 
 =head1 AUTHOR
 
