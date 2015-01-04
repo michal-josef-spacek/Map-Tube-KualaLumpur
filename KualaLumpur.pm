@@ -100,7 +100,7 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
 
 =item C<xml()>
 
- Get XML specification of Prague metro.
+ Get XML specification of Kuala Lumpur metro.
  Returns string with XML.
 
 =back
