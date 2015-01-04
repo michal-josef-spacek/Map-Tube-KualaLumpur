@@ -128,7 +128,13 @@
     <station id="6-06" name="KLIA2" line="KLIA Ekspres" link="6-05"/>
 
     <!-- https://en.wikipedia.org/wiki/KLIA_Transit -->
-    <!-- TODO 7 -->
+    <!-- 7 -->
+    <station id="7-01" name="KL Sentral" line="KLIA Transit" link="7-02"/>
+    <station id="7-02" name="Bandar Tasik Selatan" line="KLIA Transit" link="7-01,7-03"/>
+    <station id="7-03" name="Putrajaya & Cyberjaya" line="KLIA Transit" link="7-02,7-04"/>
+    <station id="7-04" name="Salak Tinggi" line="KLIA Transit" link="7-03,7-05"/>
+    <station id="7-05" name="KLIA" line="KLIA Transit" link="7-04,7-06"/>
+    <station id="7-06" name="KLIA2" line="KLIA Transit" link="7-05"/>
 
     <!-- https://en.wikipedia.org/wiki/KL_Monorail -->
     <!-- TODO 8 -->
