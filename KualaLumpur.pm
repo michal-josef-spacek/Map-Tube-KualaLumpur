@@ -39,6 +39,14 @@ Map::Tube::KualaLumpur - Interface to the KualaLumpur urban monorail system map.
  my $obj = Map::Tube::KualaLumpur->new;
  my $route = $obj->get_shortest_route($from, $to);
  my $xml_file = $obj->xml;
+ my $routes_ar = $obj->get_all_routes($from, $to);
+ my $lines_ar = $obj->get_lines;
+ my $station = $obj->get_node_by_id($station_id);
+ my $station = $obj->get_node_by_name($station_name);
+ my $route = $obj->get_shortest_route($from, $to);
+ my $stations_ar = $obj->get_stations($line);
+ my $metro_name = $obj->name;
+ my $xml_file = $obj->xml;
 
 =head1 DESCRIPTION
 
@@ -55,14 +63,44 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
 
  Constructor.
 
+=item C<get_all_routes($from, $to)> [EXPERIMENTAL]
+
+ Get all routes from station to station.
+ Returns reference to array with Map::Tube::Route objects.
+
+=item C<get_lines()>
+
+ Get lines in metro map.
+ Returns reference to array with Map::Tube::Line objects.
+
+=item C<get_node_by_id($station_id)>
+
+ Get station node by id.
+ Returns Map::Tube::Node object.
+
+=item C<get_node_by_name($station_name)>
+
+ Get station node by name.
+ Returns Map::Tube::Node object.
+
 =item C<get_shortest_route($from, $to)>
 
- Get shortest route between $from and $to node name. Node name is case insensitive.
- Returns back the node sequence in string.
+ Get shortest route between $from and $to node names. Node names in $from and $to are case insensitive.
+ Returns Map::Tube::Route object.
+
+=item C<get_stations($line)>
+
+ Get list of stations for concrete metro line.
+ Returns reference to array with Map::Tube::Node objects.
+
+=item C<name()>
+
+ Get metro name.
+ Returns string with metro name.
 
 =item C<xml()>
 
- Get XML specification of KualaLumpur metro.
+ Get XML specification of Prague metro.
  Returns string with XML.
 
 =back
@@ -81,7 +119,7 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
  my $obj = Map::Tube::KualaLumpur->new;
 
  # Get route.
- my $route = $obj->get_shortest_route(decode_utf8('TODO'), decode_utf8('TODO'));
+ my $route = $obj->get_shortest_route('Kuang', 'Subang Jaya');
 
  # Print out type.
  print "Route: ".encode_utf8($route)."\n";
@@ -93,7 +131,6 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
 
  # Pragmas.
  use strict;
- use utf8;
  use warnings;
 
  # Modules.
