@@ -137,6 +137,17 @@
     <station id="7-06" name="KLIA2" line="KLIA Transit" link="7-05"/>
 
     <!-- https://en.wikipedia.org/wiki/KL_Monorail -->
-    <!-- TODO 8 -->
+    <!-- 8 -->
+    <station id="MR1" name="KL Sentral" line="KL Monorail" link="MR2"/>
+    <station id="MR2" name="Tun Sambanthan" line="KL Monorail" link="MR1,MR3"/>
+    <station id="MR3" name="Maharajalela" line="KL Monorail" link="MR2,MR4"/>
+    <station id="MR4" name="Hang Tuah" line="KL Monorail" link="MR3,MR5"/>
+    <station id="MR5" name="Imbi" line="KL Monorail" link="MR4,MR6"/>
+    <station id="MR6" name="Bukit Bintang" line="KL Monorail" link="MR5,MR7"/>
+    <station id="MR7" name="Raja Chulan" line="KL Monorail" link="MR6,MR8"/>
+    <station id="MR8" name="Bukit Nanas" line="KL Monorail" link="MR7,MR9"/>
+    <station id="MR9" name="Medan Tuanku" line="KL Monorail" link="MR8,MR10"/>
+    <station id="MR10" name="Chow Kit" line="KL Monorail" link="MR9,MR11"/>
+    <station id="MR11" name="Titiwangsa" line="KL Monorail" link="MR10"/>
   </stations>
 </tube>
