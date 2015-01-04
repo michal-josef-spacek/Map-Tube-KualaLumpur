@@ -119,7 +119,13 @@
     <station id="KJ24" name="Kelana Jaya" line="Kelana Jaya Line" link="KJ23"/>
 
     <!-- https://en.wikipedia.org/wiki/KLIA_Ekspres -->
-    <!-- TODO 6 -->
+    <!-- 6 -->
+    <station id="6-01" name="KL Sentral" line="KLIA Ekspres" link="6-02"/>
+    <station id="6-02" name="Bandar Tasik Selatan" line="KLIA Ekspres" link="6-01,6-03"/>
+    <station id="6-03" name="Putrajaya & Cyberjaya" line="KLIA Ekspres" link="6-02,6-04"/>
+    <station id="6-04" name="Salak Tinggi" line="KLIA Ekspres" link="6-03,6-05"/>
+    <station id="6-05" name="KLIA" line="KLIA Ekspres" link="6-04,6-06"/>
+    <station id="6-06" name="KLIA2" line="KLIA Ekspres" link="6-05"/>
 
     <!-- https://en.wikipedia.org/wiki/KLIA_Transit -->
     <!-- TODO 7 -->
