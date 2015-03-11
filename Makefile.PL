@@ -24,6 +24,7 @@ resources 'homepage' => 'https://github.com/tupinek/Map-Tube-KualaLumpur';
 resources 'repository' => 'git://github.com/tupinek/Map-Tube-KualaLumpur';
 test_requires 'English' => 0;
 test_requires 'File::Object' => 0.08;
+test_requires 'Test::Map::Tube' => 0.07;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 test_requires 'Test::Pod' => 0;
