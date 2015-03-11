@@ -65,7 +65,7 @@
     <station id="KD19" name="Port Klang" line="Port Klang Line" link="KD18"/>
 
     <!-- https://en.wikipedia.org/wiki/Ampang_Line -->
-    <!-- 3 and 4 sites -->
+    <!-- 3 -->
     <station id="ST11" name="Sentul Timur" line="Ampang Line" link="ST10"/>
     <station id="ST10" name="Sentul" line="Ampang Line" link="ST11,ST9"/>
     <station id="ST9" name="Titiwangsa" line="Ampang Line" link="ST10,ST8"/>
@@ -76,21 +76,26 @@
     <station id="ST4" name="Plaza Rakyat" line="Ampang Line" link="ST5,ST3"/>
     <station id="ST3" name="Hang Tuah" line="Ampang Line" link="ST4,ST2"/>
     <station id="ST2" name="Pudu" line="Ampang Line" link="ST3,ST1"/>
-    <station id="ST1" name="Chan Sow Lin" line="Ampang Line" link="ST2,AG2"/>
-    <station id="AG2" name="Miharja" line="Ampang Line" link="ST1,AG3"/>
+    <station id="ST1" name="Chan Sow Lin" line="Ampang Line" link="AG1,ST2"/>
+    <station id="AG1" name="Chan Sow Lin" line="Ampang Line" link="ST1,AG2"/>
+    <station id="AG2" name="Miharja" line="Ampang Line" link="AG1,AG3"/>
     <station id="AG3" name="Maluri" line="Ampang Line" link="AG2,AG4"/>
     <station id="AG4" name="Pandan Jaya" line="Ampang Line" link="AG3,AG5"/>
     <station id="AG5" name="Pandan Indah" line="Ampang Line" link="AG4,AG6"/>
     <station id="AG6" name="Cempaka" line="Ampang Line" link="AG5,AG7"/>
     <station id="AG7" name="Cahaya" line="Ampang Line" link="AG6,AG8"/>
     <station id="AG8" name="Ampang" line="Ampang Line" link="AG7"/>
-    <station id="PH2" name="Cheras" line="Ampang Line" link="ST1,PH3"/>
-    <station id="PH3" name="Salak Selatan" line="Ampang Line" link="PH2,PH4"/>
-    <station id="PH4" name="Bandar Tun Razak" line="Ampang Line" link="PH3,PH5"/>
-    <station id="PH5" name="Tasik Selatan" line="Ampang Line" link="PH4,PH6"/>
-    <station id="PH6" name="Sungai Besi" line="Ampang Line" link="PH5,PH7"/>
-    <station id="PH7" name="Bukit Jalil" line="Ampang Line" link="PH6,PH8"/>
-    <station id="PH8" name="Sri Petaling" line="Ampang Line" link="PH7"/>
+
+    <!-- https://en.wikipedia.org/wiki/Ampang_Line -->
+    <!-- 4 -->
+    <station id="PH1" name="Chan Sow Lin" line="Sri Petaling Line" link="PH2,ST1"/>
+    <station id="PH2" name="Cheras" line="Sri Petaling Line" link="PH1,PH3"/>
+    <station id="PH3" name="Salak Selatan" line="Sri Petaling Line" link="PH2,PH4"/>
+    <station id="PH4" name="Bandar Tun Razak" line="Sri Petaling Line" link="PH3,PH5"/>
+    <station id="PH5" name="Tasik Selatan" line="Sri Petaling Line" link="PH4,PH6"/>
+    <station id="PH6" name="Sungai Besi" line="Sri Petaling Line" link="PH5,PH7"/>
+    <station id="PH7" name="Bukit Jalil" line="Sri Petaling Line" link="PH6,PH8"/>
+    <station id="PH8" name="Sri Petaling" line="Sri Petaling Line" link="PH7"/>
 
     <!-- https://en.wikipedia.org/wiki/Kelana_Jaya_Line -->
     <!-- 5 -->
