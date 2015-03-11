@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- https://en.wikipedia.org/wiki/Rapid_Rail -->
 <tube name="Rapid Rail">
-  <!-- https://en.wikipedia.org/wiki/Rapid_Rail -->
+  <lines>
+    <line id="1" name="Seremban Line" color="blue"/>
+    <line id="2" name="Port Klang Line" color="red"/>
+    <line id="3" name="Ampang Line" color="orange"/>
+    <line id="4" name="Sri Petaling Line" color="brown"/>
+    <line id="5" name="Kelana Jaya Line" color="pink"/>
+    <line id="6" name="KLIA Ekspres Line" color="magenta"/>
+    <line id="7" name="KLIA Transit Line" color="cyan"/>
+    <line id="8" name="KL Monorail Line" color="green"/>
+  </lines>
   <stations>
     <!-- https://en.wikipedia.org/wiki/Seremban_Line -->
     <station id="KA15" name="Tanjung Malim" line="Seremban Line" link="KA14"/>
