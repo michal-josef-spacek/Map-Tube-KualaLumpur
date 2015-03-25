@@ -24,8 +24,8 @@
     <station id="KA07" name="Kepong Sentral" line="Seremban Line" link="KA08,KA06"/>
     <station id="KA06" name="Kepong" line="Seremban Line" link="KA07,KA05"/>
     <station id="KA05" name="Segambut" line="Seremban Line" link="KA06,KA04"/>
-    <station id="KA04" name="Putra" line="Seremban Line" link="KA05,KA03"/>
-    <station id="KA03" name="Bank Negara" line="Seremban Line" link="KA04,KA02"/>
+    <station id="KA04" name="Putra" line="Seremban Line" link="KA05,KA03" other_link="Walking:ST8"/>
+    <station id="KA03" name="Bank Negara" line="Seremban Line" link="KA04,KA02" other_link="Walking:ST6"/>
     <station id="KA02" name="Kuala Lumpur" line="Seremban Line" link="KA03,KA01"/>
     <station id="KA01" name="KL Sentral" line="Seremban Line" link="KA02,KB01"/>
     <station id="KB01" name="Mid Valley" line="Seremban Line" link="KB02,KA01"/>
@@ -51,8 +51,8 @@
     <station id="KC03" name="Kampung Batu" line="Port Klang Line" link="KC02,KC04"/>
     <station id="KC02" name="Batu Kentonmen" line="Port Klang Line" link="KC01,KC03"/>
     <station id="KC01" name="Sentul" line="Port Klang Line" link="KA04,KC02"/>
-    <station id="KA04" name="Putra" line="Port Klang Line" link="KA03,KC01"/>
-    <station id="KA03" name="Bank Negara" line="Port Klang Line" link="KA02,KA04"/>
+    <station id="KA04" name="Putra" line="Port Klang Line" link="KA03,KC01" other_link="Walking:ST8"/>
+    <station id="KA03" name="Bank Negara" line="Port Klang Line" link="KA02,KA04" other_link="Walking:ST6"/>
     <station id="KA02" name="Kuala Lumpur" line="Port Klang Line" link="KA01,KA03"/>
     <station id="KA01" name="KL Sentral" line="Port Klang Line" link="KA02,KD02"/>
     <station id="KD02" name="Angkasapuri" line="Port Klang Line" link="KA01,KD03"/>
@@ -79,9 +79,9 @@
     <station id="ST11" name="Sentul Timur" line="Ampang Line" link="ST10"/>
     <station id="ST10" name="Sentul" line="Ampang Line" link="ST11,ST9"/>
     <station id="ST9" name="Titiwangsa" line="Ampang Line" link="ST10,ST8"/>
-    <station id="ST8" name="PWTC" line="Ampang Line" link="ST9,ST7"/>
+    <station id="ST8" name="PWTC" line="Ampang Line" link="ST9,ST7" other_link="Walking:KA04"/>
     <station id="ST7" name="Sultan Ismail" line="Ampang Line" link="ST8,ST6"/>
-    <station id="ST6" name="Bandaraya" line="Ampang Line" link="ST7,ST5"/>
+    <station id="ST6" name="Bandaraya" line="Ampang Line" link="ST7,ST5" other_link="Walking:KA03"/>
     <station id="ST5" name="Masjid Jamek" line="Ampang Line" link="ST6,ST4"/>
     <station id="ST4" name="Plaza Rakyat" line="Ampang Line" link="ST5,ST3"/>
     <station id="ST3" name="Hang Tuah" line="Ampang Line" link="ST4,ST2"/>
