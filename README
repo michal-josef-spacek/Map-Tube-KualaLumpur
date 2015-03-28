@@ -113,8 +113,7 @@ DEPENDENCIES
     File::Share, Map::Tube, Moo, namespace::clean.
 
 SEE ALSO
-    Map::Tube, Map::Tube::Barcelona, Map::Tube::Delhi, Map::Tube::London,
-    Map::Tube::Tokyo.
+    Map::Tube, Task::Map::Tube, Task::Map::Tube::Metro.
 
 REPOSITORY
     <https://github.com/tupinek/Map-Tube-KualaLumpur>

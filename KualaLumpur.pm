@@ -168,10 +168,8 @@ L<namespace::clean>.
 =head1 SEE ALSO
 
 L<Map::Tube>,
-L<Map::Tube::Barcelona>,
-L<Map::Tube::Delhi>,
-L<Map::Tube::London>,
-L<Map::Tube::Tokyo>.
+L<Task::Map::Tube>,
+L<Task::Map::Tube::Metro>.
 
 =head1 REPOSITORY
 
