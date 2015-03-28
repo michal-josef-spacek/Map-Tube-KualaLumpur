@@ -1,0 +1,56 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 02751dd5a46d010f1e838470520756b731080068 Changes
+SHA1 fb2d962fe8def3da398f799091be22909259b0c4 KualaLumpur.pm
+SHA1 882221895a73bad18eb9f16a0ce523a968a932c1 LICENSE.artistic_2
+SHA1 507a10efa92555ddddfbe72be27964d9e3eef80f LICENSE.bsd
+SHA1 f5949a97de5bd8d79335a2cd24756a2d8c781f34 MANIFEST
+SHA1 9a04c47039c050148c77bfc198a0b527421f765f META.yml
+SHA1 b0197d5ca93ab79a4125c1a0b1c94a92d3f2416c Makefile.PL
+SHA1 527e8f3ab5abcbaef06871f750b10fa60abe7912 README
+SHA1 26fca28aa0521797960c96d7cc063479db1672d5 examples/ex1.pl
+SHA1 61510dfde0846b6fb22df367b99d2d894a4761c4 examples/ex2.pl
+SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
+SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
+SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
+SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
+SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
+SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 3283fb3bb58e10c29029567e63b805cdeb66af10 inc/Module/Install/Share.pm
+SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
+SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
+SHA1 e2d6c32ee607cd11d902fb206f35bddc7437f4fc share/kuala_lumpur-map.xml
+SHA1 c0b0206356c7312f49493ccede5279125d000866 t/Map-Tube-KualaLumpur/00-use.t
+SHA1 801c11b9a0bef026ac636ae794cccaa5f3f1cf88 t/Map-Tube-KualaLumpur/01-version.t
+SHA1 1d47e9b0925d8ca6ccb88ab376ac651b494a4da3 t/Map-Tube-KualaLumpur/02-pod_coverage.t
+SHA1 fdfa506ee56f92a67d886d8e280ce9d4288a603b t/Map-Tube-KualaLumpur/03-pod.t
+SHA1 73e57d9696f9cca4ca16b1f0005212d71986c3cd t/Map-Tube-KualaLumpur/04-map.t
+SHA1 cb3dbee2fcbf48f3b30d7899ec2059a7e0bb4596 t/Map-Tube-KualaLumpur/05-get_shortest_route.t
+SHA1 f82d3b7793117d5cc91654c93b08cb60a3ffe527 t/Map-Tube-KualaLumpur/06-name.t
+SHA1 d51c32ffddcbc29982c15dc14459419d76db3f07 t/Map-Tube-KualaLumpur/07-xml.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVFt+RAAoJEJe+XXKaIuTlwBcIALQ2zOq2APlmr9jFG2xqiY4k
+5wuyBJtcMbrvRyZTMw/MbYdhuh8R5WvCX6NQ5O7fs3ILApStKQl0ZGLHR08r24vk
+eptcy/Xw7EPawfasNR1tzj8y+IjDm3we9io+GqMAplCqJY8kuE8UvlTTUVWdAyEZ
+56U6fO3O+fya+e2hVxp5N9RV4fOlnY6vaPoQp5lHT4XTZgun+IDrhjm57vYz2ub6
+arQxkmTzf1iEo65HQZVOTO3UjPgET36sMs5/tf7kNSmpkacZ4M8id4EsYQKtvocr
+X0wZahnqL7cldxsYAKQVCB1nFFJ5sZ/kR3b7XV5M4YpaNKNaQqnkGkSncjdTDAM=
+=lRTQ
+-----END PGP SIGNATURE-----

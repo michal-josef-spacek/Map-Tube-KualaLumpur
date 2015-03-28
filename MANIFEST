@@ -19,6 +19,7 @@ MANIFEST			This list of files
 META.yml
 README
 share/kuala_lumpur-map.xml
+SIGNATURE
 t/Map-Tube-KualaLumpur/00-use.t
 t/Map-Tube-KualaLumpur/01-version.t
 t/Map-Tube-KualaLumpur/02-pod_coverage.t
