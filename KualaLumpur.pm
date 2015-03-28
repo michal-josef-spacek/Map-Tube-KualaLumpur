@@ -83,6 +83,16 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
  Get station node by name.
  Returns Map::Tube::Node object.
 
+=item C<get_line_by_id($line_id)>
+
+ Get line by id.
+ Returns Map::Tube::Line object.
+
+=item C<get_line_by_name($line_name)>
+
+ Get line by name.
+ Returns Map::Tube::Line object.
+
 =item C<get_shortest_route($from, $to)>
 
  Get shortest route between $from and $to node names. Node names in $from and $to are case insensitive.
