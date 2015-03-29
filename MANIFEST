@@ -25,6 +25,7 @@ t/Map-Tube-KualaLumpur/01-version.t
 t/Map-Tube-KualaLumpur/02-pod_coverage.t
 t/Map-Tube-KualaLumpur/03-pod.t
 t/Map-Tube-KualaLumpur/04-map.t
-t/Map-Tube-KualaLumpur/05-get_shortest_route.t
-t/Map-Tube-KualaLumpur/06-name.t
-t/Map-Tube-KualaLumpur/07-xml.t
+t/Map-Tube-KualaLumpur/05-get_node_by_id.t
+t/Map-Tube-KualaLumpur/06-get_shortest_route.t
+t/Map-Tube-KualaLumpur/07-name.t
+t/Map-Tube-KualaLumpur/08-xml.t
