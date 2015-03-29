@@ -2,7 +2,8 @@ TODO
 ====
 2. Testy pro nove metody.
 3. Dalsi EXAMPLE sekce v doc.
-4.
+4. Test pro get_node_by_name by mel vracet vice nodu, kdyz existuji.
+5.
 
 Applied
 =======
