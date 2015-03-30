@@ -1,3 +1,5 @@
+0.04
+
 0.03 2015-03-30T14:37:35+02:00
  - Fix test for get_node_by_name() method to new Map::Tube::API (#103168).
  - Remove TODO from EXAMPLE1 section in doc.
