@@ -12,6 +12,12 @@
     <line id="8" name="KL Monorail Line" color="green"/>
   </lines>
   <stations>
+    <!-- Junctions on multiple lines. -->
+    <station id="KA01" name="KL Sentral" line="Seremban Line,Port Klang Line" link="KA02,KB01,KD02" other_link="Terminal1:6-01,Terminal5:7-01,Walking:MR1,Terminal6:KJ15"/>
+    <station id="KA02" name="Kuala Lumpur" line="Seremban Line,Port Klang Line" link="KA03,KA01" other_link="Walking:KJ14"/>
+    <station id="KA03" name="Bank Negara" line="Seremban Line,Port Klang Line" link="KA04,KA02" other_link="Walking:ST6"/>
+    <station id="KA04" name="Putra" line="Seremban Line,Port Klang Line" link="KA05,KA03,KC01" other_link="Walking:ST8"/>
+
     <!-- https://en.wikipedia.org/wiki/Seremban_Line -->
     <station id="KA15" name="Tanjung Malim" line="Seremban Line" link="KA14"/>
     <station id="KA14" name="Kuala Kubu Bharu" line="Seremban Line" link="KA15,KA13"/>
@@ -24,10 +30,6 @@
     <station id="KA07" name="Kepong Sentral" line="Seremban Line" link="KA08,KA06"/>
     <station id="KA06" name="Kepong" line="Seremban Line" link="KA07,KA05"/>
     <station id="KA05" name="Segambut" line="Seremban Line" link="KA06,KA04"/>
-    <station id="KA04" name="Putra" line="Seremban Line" link="KA05,KA03" other_link="Walking:ST8"/>
-    <station id="KA03" name="Bank Negara" line="Seremban Line" link="KA04,KA02" other_link="Walking:ST6"/>
-    <station id="KA02" name="Kuala Lumpur" line="Seremban Line" link="KA03,KA01" other_link="Walking:KJ14"/>
-    <station id="KA01" name="KL Sentral" line="Seremban Line" link="KA02,KB01" other_link="Terminal1:6-01,Terminal5:7-01,Walking:MR1,Terminal6:KJ15"/>
     <station id="KB01" name="Mid Valley" line="Seremban Line" link="KB02,KA01"/>
     <station id="KB02" name="Seputeh" line="Seremban Line" link="KB03,KB01"/>
     <station id="KB03" name="Salak Selatan" line="Seremban Line" link="KB04,KB02"/>
@@ -51,10 +53,6 @@
     <station id="KC03" name="Kampung Batu" line="Port Klang Line" link="KC02,KC04"/>
     <station id="KC02" name="Batu Kentonmen" line="Port Klang Line" link="KC01,KC03"/>
     <station id="KC01" name="Sentul" line="Port Klang Line" link="KA04,KC02"/>
-    <station id="KA04" name="Putra" line="Port Klang Line" link="KA03,KC01" other_link="Walking:ST8"/>
-    <station id="KA03" name="Bank Negara" line="Port Klang Line" link="KA02,KA04" other_link="Walking:ST6"/>
-    <station id="KA02" name="Kuala Lumpur" line="Port Klang Line" link="KA01,KA03"/>
-    <station id="KA01" name="KL Sentral" line="Port Klang Line" link="KA02,KD02" other_link="Terminal1:6-01,Terminal5:7-01,Walking:MR1,Terminal6:KJ15"/>
     <station id="KD02" name="Angkasapuri" line="Port Klang Line" link="KA01,KD03"/>
     <station id="KD03" name="Pantai Dalam" line="Port Klang Line" link="KD02,KD04"/>
     <station id="KD04" name="Petaling" line="Port Klang Line" link="KD03,KD05"/>

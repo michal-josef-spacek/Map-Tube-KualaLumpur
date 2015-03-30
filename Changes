@@ -1,6 +1,7 @@
 0.03
  - Fix test for get_node_by_name() method to new Map::Tube::API (#103168).
  - Remove TODO from EXAMPLE1 section in doc.
+ - Rewrite map and tests to conformity of Map::Tube 2.99.
 
 0.02 2015-03-29T11:51:23+02:00
  - Add tests for get_node_by_id() method.
