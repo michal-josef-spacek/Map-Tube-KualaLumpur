@@ -13,6 +13,16 @@ my $ret = $map->get_node_by_name('foo');
 is($ret, undef, 'Get node for bad node name.');
 
 # Test.
-$ret = $map->get_node_by_name('KL Sentral');
-# TODO Multiple nodes by same name.
-is($ret->id, 'MR1', 'Get node for node name.');
+my @ret = sort map { $_->id } $map->get_node_by_name('KL Sentral');
+is_deeply(
+	\@ret,
+	[
+		'6-01',
+		'7-01',
+		'KA01',
+		'KA01',
+		'KJ15',
+		'MR1',
+	],
+	"Get all nodes for 'KL Sentral name'.",
+);

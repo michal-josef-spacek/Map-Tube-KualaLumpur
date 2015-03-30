@@ -14,7 +14,7 @@ license 'artistic_2';
 name 'Map-Tube-KualaLumpur';
 readme_from 'KualaLumpur.pm';
 requires 'File::Share' => 0;
-requires 'Map::Tube' => '2.96';
+requires 'Map::Tube' => '2.98';
 requires 'Moo' => 0;
 requires 'namespace::clean' => 0;
 requires 'perl' => '5.8.0';
