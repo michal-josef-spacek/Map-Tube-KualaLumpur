@@ -5,8 +5,6 @@ NAME
 SYNOPSIS
      use Map::Tube::KualaLumpur;
      my $obj = Map::Tube::KualaLumpur->new;
-     my $route = $obj->get_shortest_route($from, $to);
-     my $xml_file = $obj->xml;
      my $routes_ar = $obj->get_all_routes($from, $to);
      my $lines_ar = $obj->get_lines;
      my $station = $obj->get_node_by_id($station_id);
