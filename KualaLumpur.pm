@@ -165,9 +165,21 @@ L<namespace::clean>.
 
 =head1 SEE ALSO
 
-L<Map::Tube>,
-L<Task::Map::Tube>,
-L<Task::Map::Tube::Metro>.
+=over
+
+=item L<Map::Tube>
+
+Core library as Role (Moo) to process map data.
+
+=item L<Task::Map::Tube>
+
+Install the Map::Tube modules.
+
+=item L<Task::Map::Tube::Metro>
+
+Install the Map::Tube concrete metro modules.
+
+=back
 
 =head1 REPOSITORY
 

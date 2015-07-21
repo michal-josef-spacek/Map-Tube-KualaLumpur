@@ -111,7 +111,14 @@ DEPENDENCIES
     File::Share, Map::Tube, Moo, namespace::clean.
 
 SEE ALSO
-    Map::Tube, Task::Map::Tube, Task::Map::Tube::Metro.
+    Map::Tube
+        Core library as Role (Moo) to process map data.
+
+    Task::Map::Tube
+        Install the Map::Tube modules.
+
+    Task::Map::Tube::Metro
+        Install the Map::Tube concrete metro modules.
 
 REPOSITORY
     <https://github.com/tupinek/Map-Tube-KualaLumpur>
