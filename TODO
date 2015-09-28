@@ -1,7 +1,6 @@
 TODO
 ====
 2. Testy pro nove metody.
-3. Dalsi EXAMPLE sekce v doc.
 5.
 
 Applied
@@ -11,3 +10,6 @@ OK [20150329] skim
 
 4. Test pro get_node_by_name by mel vracet vice nodu, kdyz existuji.
 OK [20150330] skim
+
+3. Dalsi EXAMPLE sekce v doc.
+OK [20150928] skim
