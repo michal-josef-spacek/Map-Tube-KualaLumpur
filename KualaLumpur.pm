@@ -156,6 +156,43 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
  # Output like:
  # XML file: .*/kuala_lumpur-map.xml
 
+=head1 EXAMPLE3
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Map::Tube::GraphViz;
+ use Map::Tube::GraphViz::Utils qw(node_color_without_label);
+ use Map::Tube::KualaLumpur;
+
+ # Object.
+ my $obj = Map::Tube::KualaLumpur->new;
+
+ # GraphViz object.
+ my $g = Map::Tube::GraphViz->new(
+         'callback_node' => \&node_color_without_label,
+         'tube' => $obj,
+ );
+
+ # Get graph to file.
+ $g->graph('KualaLumpur.png');
+
+ # Print file.
+ system "ls -l KualaLumpur.png";
+
+ # Output like:
+ # -rw-r--r-- 1 skim skim 379962 Sep 28 12:11 KualaLumpur.png
+
+=begin html
+
+<a href="https://raw.githubusercontent.com/tupinek/Map-Tube-KualaLumpur/master/images/ex3.png">
+  <img src="https://raw.githubusercontent.com/tupinek/Map-Tube-KualaLumpur/master/images/ex3.png" alt="Rapid Rail" width="300px" height="300px" />
+</a>
+
+=end html
+
 =head1 DEPENDENCIES
 
 L<File::Share>,
