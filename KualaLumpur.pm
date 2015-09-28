@@ -38,6 +38,8 @@ Map::Tube::KualaLumpur - Interface to the KualaLumpur urban monorail system map.
  use Map::Tube::KualaLumpur;
  my $obj = Map::Tube::KualaLumpur->new;
  my $routes_ar = $obj->get_all_routes($from, $to);
+ my $line = $obj->get_line_by_id($line_id);
+ my $line = $obj->get_line_by_name($line_name);
  my $lines_ar = $obj->get_lines;
  my $station = $obj->get_node_by_id($station_id);
  my $station = $obj->get_node_by_name($station_name);
@@ -66,6 +68,16 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
  Get all routes from station to station.
  Returns reference to array with Map::Tube::Route objects.
 
+=item C<get_line_by_id($line_id)>
+
+ Get line object defined by id.
+ Returns Map::Tube::Line object.
+
+=item C<get_line_by_name($line_name)>
+
+ Get line object defined by name.
+ Returns Map::Tube::Line object.
+
 =item C<get_lines()>
 
  Get lines in metro map.
@@ -80,16 +92,6 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
 
  Get station node by name.
  Returns Map::Tube::Node object.
-
-=item C<get_line_by_id($line_id)>
-
- Get line by id.
- Returns Map::Tube::Line object.
-
-=item C<get_line_by_name($line_name)>
-
- Get line by name.
- Returns Map::Tube::Line object.
 
 =item C<get_shortest_route($from, $to)>
 

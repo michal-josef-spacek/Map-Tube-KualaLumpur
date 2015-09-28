@@ -1,6 +1,7 @@
 0.04
  - Add EXAMPLE3 section to doc with map.
  - Add example for print of metro lines to doc.
+ - Add get_line_by_id() and get_line_by_name() methods to doc.
  - Move author tests to xt/ directory.
  - Remove duplicit api items in SYNOPSIS section in doc.
  - Rewrite SEE ALSO section to new style.
