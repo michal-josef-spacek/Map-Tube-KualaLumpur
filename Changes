@@ -1,5 +1,6 @@
 0.05
  - Improve description for get_lines() in doc.
+ - Update to Map::Tube 3.06.
 
 0.04 2015-09-28T12:36:54+02:00
  - Add EXAMPLE3 section to doc with map.
