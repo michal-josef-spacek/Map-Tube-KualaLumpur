@@ -102,7 +102,11 @@
     <station id="PH5" name="Tasik Selatan" line="4:5" link="PH4,PH6"/>
     <station id="PH6" name="Sungai Besi" line="4:6" link="PH5,PH7"/>
     <station id="PH7" name="Bukit Jalil" line="4:7" link="PH6,PH8"/>
-    <station id="PH8" name="Sri Petaling" line="4:8" link="PH7"/>
+    <station id="PH8" name="Sri Petaling" line="4:8" link="PH7,PH9"/>
+    <station id="PH9" name="Awan Besar" line="4:9" link="PH8,PH10"/>
+    <station id="PH10" name="Muhibbah" line="4:10" link="PH9,PH11"/>
+    <station id="PH11" name="Alam Sutera" line="4:11" link="PH10,PH12"/>
+    <station id="PH12" name="Kinrara BK5" line="4:12" link="PH11"/>
 
     <!-- https://en.wikipedia.org/wiki/Kelana_Jaya_Line -->
     <!-- 5 -->
