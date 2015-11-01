@@ -85,14 +85,13 @@
     <station id="ST3" name="Hang Tuah" line="3:9" link="ST4,ST2" other_link="Interchange:MR4"/>
     <station id="ST2" name="Pudu" line="3:10" link="ST3,ST1"/>
     <station id="ST1" name="Chan Sow Lin" line="3:11" link="AG1,ST2"/>
-    <station id="AG1" name="Chan Sow Lin" line="3:12" link="ST1,AG2"/>
-    <station id="AG2" name="Miharja" line="3:13" link="AG1,AG3"/>
-    <station id="AG3" name="Maluri" line="3:14" link="AG2,AG4"/>
-    <station id="AG4" name="Pandan Jaya" line="3:15" link="AG3,AG5"/>
-    <station id="AG5" name="Pandan Indah" line="3:16" link="AG4,AG6"/>
-    <station id="AG6" name="Cempaka" line="3:17" link="AG5,AG7"/>
-    <station id="AG7" name="Cahaya" line="3:18" link="AG6,AG8"/>
-    <station id="AG8" name="Ampang" line="3:19" link="AG7"/>
+    <station id="AG2" name="Miharja" line="3:12" link="ST1,AG3"/>
+    <station id="AG3" name="Maluri" line="3:13" link="AG2,AG4"/>
+    <station id="AG4" name="Pandan Jaya" line="3:14" link="AG3,AG5"/>
+    <station id="AG5" name="Pandan Indah" line="3:15" link="AG4,AG6"/>
+    <station id="AG6" name="Cempaka" line="3:16" link="AG5,AG7"/>
+    <station id="AG7" name="Cahaya" line="3:17" link="AG6,AG8"/>
+    <station id="AG8" name="Ampang" line="3:18" link="AG7"/>
 
     <!-- https://en.wikipedia.org/wiki/Ampang_Line -->
     <!-- 4 -->
