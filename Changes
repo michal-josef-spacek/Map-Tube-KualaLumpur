@@ -1,4 +1,5 @@
 0.06
+ - Add EXAMPLE5 section to doc.
  - Add new stations to Sri Petaling Line.
  - Fix "Ampang Line" stations.
  - Implement station order.
