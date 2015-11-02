@@ -2,6 +2,7 @@
  - Add EXAMPLE5 section to doc.
  - Add new stations to Sri Petaling Line.
  - Fix "Ampang Line" stations.
+ - Fix "Masjid Jamek" station links.
  - Implement station order.
  - Rewrite XML map to new version with line IDs.
 

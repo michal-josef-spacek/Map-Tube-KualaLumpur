@@ -122,7 +122,7 @@
     <station id="KJ10" name="KLCC" line="5:10" link="KJ9,KJ11"/>
     <station id="KJ11" name="Kampung Baru" line="5:11" link="KJ10,KJ12"/>
     <station id="KJ12" name="Dang Wangi" line="5:12" link="KJ11,KJ13" other_link="Walking:MR8"/>
-    <station id="KJ13" name="Masjid Jamek" line="5:13" link="KJ12,KJ16"/>
+    <station id="KJ13" name="Masjid Jamek" line="5:13" link="KJ12,KJ14"/>
     <station id="KJ14" name="Pasar Seni" line="5:14" link="KJ13,KJ15" other_link="Walking:KA02"/>
     <station id="KJ15" name="KL Sentral" line="5:15" link="KJ14,KJ16" other_link="Terminal3:6-01,Terminal4:7-01,Walking:MR1,Terminal6:KA01"/>
     <station id="KJ16" name="Bangsar" line="5:16" link="KJ15,KJ17"/>
