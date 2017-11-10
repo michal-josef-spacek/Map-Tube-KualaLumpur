@@ -5,6 +5,7 @@
  - Fix "Masjid Jamek" station links.
  - Implement station order.
  - Rewrite XML map to new version with line IDs.
+ - Update Module::Install to 1.18 version.
 
 0.05 2015-10-16T12:04:29+02:00
  - Improve description for get_lines() in doc.
