@@ -3,6 +3,7 @@
  - Add new stations to Sri Petaling Line.
  - Fix "Ampang Line" stations.
  - Fix "Masjid Jamek" station links.
+ - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Implement station order.
  - Rewrite XML map to new version with line IDs.
  - Update Module::Install to 1.18 version.
