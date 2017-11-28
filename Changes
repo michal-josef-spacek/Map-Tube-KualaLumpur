@@ -1,6 +1,7 @@
 0.06
  - Add EXAMPLE5 section to doc.
  - Add new stations to Sri Petaling Line.
+ - Add test for ok_map_functions().
  - Fix "Ampang Line" stations.
  - Fix "Masjid Jamek" station links.
  - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
