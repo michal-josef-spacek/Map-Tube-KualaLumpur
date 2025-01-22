@@ -47,7 +47,8 @@
     <station id="KB15" name="Sungai Gadut" line="1:30" link="KB16,KB14"/>
     <station id="KB16" name="Rembau" line="1:31" link="KB15"/>
 
-    <!-- https://en.wikipedia.org/wiki/Port_Klang_Line -->
+    <!-- https://en.wikipedia.org/wiki/Tanjung_Malim%E2%80%93Port_Klang_Line -->
+    <!-- 2 -->
     <station id="KC05" name="Batu Caves" line="2:1" link="KC04"/>
     <station id="KC04" name="Taman Wahyu" line="2:2" link="KC03,KC05"/>
     <station id="KC03" name="Kampung Batu" line="2:3" link="KC02,KC04"/>
@@ -72,7 +73,7 @@
     <station id="KD18" name="Jalan Kastam" line="2:26" link="KD17,KD19"/>
     <station id="KD19" name="Port Klang" line="2:27" link="KD18"/>
 
-    <!-- https://en.wikipedia.org/wiki/Ampang_Line -->
+    <!-- https://en.wikipedia.org/wiki/Ampang_and_Sri_Petaling_lines -->
     <!-- 3 -->
     <station id="ST11" name="Sentul Timur" line="3:1" link="ST10"/>
     <station id="ST10" name="Sentul" line="3:2" link="ST11,ST9"/>
@@ -93,7 +94,7 @@
     <station id="AG7" name="Cahaya" line="3:17" link="AG6,AG8"/>
     <station id="AG8" name="Ampang" line="3:18" link="AG7"/>
 
-    <!-- https://en.wikipedia.org/wiki/Ampang_Line -->
+    <!-- https://en.wikipedia.org/wiki/Ampang_and_Sri_Petaling_lines -->
     <!-- 4 -->
     <station id="PH1" name="Chan Sow Lin" line="4:1" link="PH2,ST1"/>
     <station id="PH2" name="Cheras" line="4:2" link="PH1,PH3"/>
