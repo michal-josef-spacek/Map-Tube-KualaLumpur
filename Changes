@@ -1,5 +1,6 @@
 0.07
  - Fix Makefile.PL lib pragma.
+ - Fix duplicit Sentul station.
  - Update Module::Install to 1.21 version.
  - Update copyright years.
  - Update links in XML file.
