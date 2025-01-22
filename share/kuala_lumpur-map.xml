@@ -17,6 +17,9 @@
     <station id="KA02" name="Kuala Lumpur" line="1:14,2:8" link="KA03,KA01" other_link="Walking:KJ14"/>
     <station id="KA03" name="Bank Negara" line="1:13,2:7" link="KA04,KA02" other_link="Walking:ST6"/>
     <station id="KA04" name="Putra" line="1:12,2:6" link="KA05,KA03,KC01" other_link="Walking:ST8"/>
+    <station id="ST1" name="Chan Sow Lin" line="3:11,4:1" link="AG2,ST2,PH2"/>
+    <station id="KB03" name="Salak Selatan" line="1:18,4:3" link="KB04,KB02,PH2,PH4"/>
+    <station id="ST5" name="Masjid Jamek" line="3:7,5:13" link="ST6,ST4,KJ12,KJ14"/>
 
     <!-- https://en.wikipedia.org/wiki/Seremban_Line -->
     <station id="KA15" name="Tanjung Malim" line="1:1" link="KA14"/>
@@ -32,7 +35,7 @@
     <station id="KA05" name="Segambut" line="1:11" link="KA06,KA04"/>
     <station id="KB01" name="Mid Valley" line="1:16" link="KB02,KA01"/>
     <station id="KB02" name="Seputeh" line="1:17" link="KB03,KB01"/>
-    <station id="KB03" name="Salak Selatan" line="1:18" link="KB04,KB02"/>
+    <!-- Salak Selatan -->
     <station id="KB04" name="Bandar Tasik Selatan" line="1:19" link="KB05,KB03" other_link="Interchange1:6-02,Interchange2:7-02"/>
     <station id="KB05" name="Serdang" line="1:20" link="KB06,KB04"/>
     <station id="KB06" name="Kajang" line="1:21" link="KB07,KB05"/>
@@ -81,11 +84,11 @@
     <station id="ST8" name="PWTC" line="3:4" link="ST9,ST7" other_link="Walking:KA04"/>
     <station id="ST7" name="Sultan Ismail" line="3:5" link="ST8,ST6"/>
     <station id="ST6" name="Bandaraya" line="3:6" link="ST7,ST5" other_link="Walking:KA03"/>
-    <station id="ST5" name="Masjid Jamek" line="3:7" link="ST6,ST4"/>
+    <!-- Masjid Jamek -->
     <station id="ST4" name="Plaza Rakyat" line="3:8" link="ST5,ST3"/>
     <station id="ST3" name="Hang Tuah" line="3:9" link="ST4,ST2" other_link="Interchange:MR4"/>
     <station id="ST2" name="Pudu" line="3:10" link="ST3,ST1"/>
-    <station id="ST1" name="Chan Sow Lin" line="3:11" link="AG2,ST2"/>
+    <!-- Chan Sow Lin -->
     <station id="AG2" name="Miharja" line="3:12" link="ST1,AG3"/>
     <station id="AG3" name="Maluri" line="3:13" link="AG2,AG4"/>
     <station id="AG4" name="Pandan Jaya" line="3:14" link="AG3,AG5"/>
@@ -96,10 +99,10 @@
 
     <!-- https://en.wikipedia.org/wiki/Ampang_and_Sri_Petaling_lines -->
     <!-- 4 -->
-    <station id="PH1" name="Chan Sow Lin" line="4:1" link="PH2,ST1"/>
-    <station id="PH2" name="Cheras" line="4:2" link="PH1,PH3"/>
-    <station id="PH3" name="Salak Selatan" line="4:3" link="PH2,PH4"/>
-    <station id="PH4" name="Bandar Tun Razak" line="4:4" link="PH3,PH5"/>
+    <!-- Chan Sow Lin -->
+    <station id="PH2" name="Cheras" line="4:2" link="ST1,KB03"/>
+    <!-- Salak Selatan -->
+    <station id="PH4" name="Bandar Tun Razak" line="4:4" link="KB03,PH5"/>
     <station id="PH5" name="Tasik Selatan" line="4:5" link="PH4,PH6"/>
     <station id="PH6" name="Sungai Besi" line="4:6" link="PH5,PH7"/>
     <station id="PH7" name="Bukit Jalil" line="4:7" link="PH6,PH8"/>
@@ -122,9 +125,9 @@
     <station id="KJ9" name="Ampang Park" line="5:9" link="KJ8,KJ10"/>
     <station id="KJ10" name="KLCC" line="5:10" link="KJ9,KJ11"/>
     <station id="KJ11" name="Kampung Baru" line="5:11" link="KJ10,KJ12"/>
-    <station id="KJ12" name="Dang Wangi" line="5:12" link="KJ11,KJ13" other_link="Walking:MR8"/>
-    <station id="KJ13" name="Masjid Jamek" line="5:13" link="KJ12,KJ14"/>
-    <station id="KJ14" name="Pasar Seni" line="5:14" link="KJ13,KJ15" other_link="Walking:KA02"/>
+    <station id="KJ12" name="Dang Wangi" line="5:12" link="KJ11,ST5" other_link="Walking:MR8"/>
+    <!-- Masjid Jamek -->
+    <station id="KJ14" name="Pasar Seni" line="5:14" link="ST5,KJ15" other_link="Walking:KA02"/>
     <station id="KJ15" name="KL Sentral" line="5:15" link="KJ14,KJ16" other_link="Terminal3:6-01,Terminal4:7-01,Walking:MR1,Terminal6:KA01"/>
     <station id="KJ16" name="Bangsar" line="5:16" link="KJ15,KJ17"/>
     <station id="KJ17" name="Abdullah Hukum" line="5:17" link="KJ16,KJ18"/>
