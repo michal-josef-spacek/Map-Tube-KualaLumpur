@@ -1,5 +1,6 @@
 0.07
  - Fix Makefile.PL lib pragma.
+ - Update Module::Install to 1.21 version.
  - Update copyright years.
 
 0.06 2020-01-18T12:04:54+01:00
