@@ -115,6 +115,8 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
 
 =head1 EXAMPLE1
 
+=for comment filename=print_kuala_lumpur_route.pl
+
  use strict;
  use warnings;
 
@@ -135,6 +137,8 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
 
 =head1 EXAMPLE2
 
+=for comment filename=print_kuala_lumpur_def_xml_file.pl
+
  use strict;
  use warnings;
 
@@ -153,6 +157,8 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
  # XML file: .*/kuala_lumpur-map.xml
 
 =head1 EXAMPLE3
+
+=for comment filename=print_kuala_lumpur_image.pl
 
  use strict;
  use warnings;
@@ -189,6 +195,8 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
 
 =head1 EXAMPLE4
 
+=for comment filename=print_kuala_lumpur_lines.pl
+
  use strict;
  use warnings;
 
@@ -215,6 +223,8 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
  # Sri Petaling Line
 
 =head1 EXAMPLE5
+
+=for comment filename=print_kuala_lumpur_line_stations.pl
 
  use strict;
  use warnings;
