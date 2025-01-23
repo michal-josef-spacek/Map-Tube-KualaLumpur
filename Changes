@@ -2,6 +2,7 @@
  - Fix Makefile.PL lib pragma.
  - Fix duplicit Sentul station.
  - Fix stations on multiple lines.
+ - Move bugtracker to github.
  - Rename examples to better names.
  - Update Module::Install to 1.21 version.
  - Update copyright years.
