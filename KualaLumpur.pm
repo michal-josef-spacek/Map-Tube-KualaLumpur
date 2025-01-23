@@ -183,12 +183,12 @@ For more information about KualaLumpur Map, click L<here|https://https://en.wiki
  system "ls -l KualaLumpur.png";
 
  # Output like:
- # -rw-r--r-- 1 skim skim 379962 Sep 28 12:11 KualaLumpur.png
+ # -rw-r--r-- 1 skim skim 374739 23. led 18.57 KualaLumpur.png
 
 =begin html
 
-<a href="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-KualaLumpur/master/images/ex3.png">
-  <img src="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-KualaLumpur/master/images/ex3.png" alt="Rapid Rail" width="300px" height="300px" />
+<a href="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-KualaLumpur/master/images/KualaLumpur.png">
+  <img src="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-KualaLumpur/master/images/KualaLumpur.png" alt="Rapid Rail" width="300px" height="300px" />
 </a>
 
 =end html

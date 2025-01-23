@@ -5,6 +5,7 @@
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Move bugtracker to github.
  - Rename examples to better names.
+ - Rename image to better name.
  - Update Module::Install to 1.21 version.
  - Update copyright years.
  - Update links in XML file.
